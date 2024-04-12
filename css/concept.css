@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ul.local-nav2.concept_materials,
+ul.local-nav2.concept_technique {
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+	justify-content: space-between;
+}
+ul.local-nav2.concept_materials li,
+ul.local-nav2.concept_technique li {
+	width: 50%;
+	border-right: 1px solid #b2b2b2;
+}
+ul.local-nav2.concept_materials li:nth-child(2n),
+ul.local-nav2.concept_technique li:nth-child(2n) {border-right: 0;}
+ul.local-nav2.concept_materials li:nth-last-child(2),
+ul.local-nav2.concept_technique li:nth-last-child(2) {border-bottom: 0;}
+
+.imgset-box.migaku {margin-bottom: 30px;}
+.imgset-box.migaku:last-child {margin-bottom: 0;}
+.mageki-gijutsu th {
+	width: 30%;
+	background-color: #efefef;
+	text-align: left;
+}
+
+
+.cloth-details>section,
+.litewave>section,
+.litewave .photogallery {margin-bottom: 30px;}
+.cloth-details>section:last-child {margin-bottom: 0;}
+
+.cloth-details th {width: 25%;}
+.cloth-icons {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.cloth-icons li {
+	width: 85px;
+	margin: 10px 15px 0 0;
+}
+
+.lamous .note.num {margin: 0;}
+.lamous .link-ul.mtL {margin-bottom: 20px;}
+.lamous .link-ul.mtL:last-child {margin-bottom: 0;}
+
+.wiping-hikaku .photogallery>div:first-child {margin-bottom: 50px;position: relative;}
+.wiping-hikaku .photogallery>div:first-child:after {
+	content: '';
+	width: 0;
+height: 0;
+border-style: solid;
+border-width: 15px 15px 0 15px;
+border-color: #00887f transparent transparent transparent;
+	position: absolute;
+	bottom: -30px;
+	left: 50%;
+	margin-left: -15px;
+}
+
+.miJapan>img {width: 230px;}
+
+.photogallery.factory>div>img {margin-bottom: 15px;}
+.factory .photogallery-header {font-size: 116%;}
+
+
+.craftsman-item {
+	margin-bottom: 20px;
+}
+.craftsman-item:last-child {margin-bottom: 0;}
+.craftsman-item a {display: block;}
+.craftsman-item .img,
+.craftsman-main .img {margin: 0;text-align: center;}
+.craftsman-info {
+	background-color: rgba(0,0,0,0.75);
+	color: #fff;
+	padding: 20px;
+}
+.craftsman-info p {
+	margin: 0;
+}
+.craftsman-info p.catch {
+	margin-bottom: 10px;
+	font-size: 123.1%;
+	line-height: 1.5;
+}
+.craftsman-info p.name {
+	font-size: 116%;
+}
+.craftsman-info p.name span {
+	font-size: 85%;
+	color: #B2B2B2;
+}
+
+
+.craftsman-main .craftsman-info {
+	background-color: #000;
+}
+
+.craftsman-profile-header {
+	margin: 0 0 10px;
+}
+.craftsman-profile-header img {width: 56px;}
+.craftsman-profile p {margin: 0;}
+
+.craftsman-comment .text p {margin-bottom: 1em;}
+.craftsman-comment .text p:last-child {margin-bottom: 0;}
+
+
+.safety01 dl {margin: 15px 0;}
+.safety01 dt {
+	font-size: 108%;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.safety01 dd {
+	margin: 0 0 15px;
+}
+.safety01 dd:last-child {margin-bottom: 0;}
+
+.safety01 img {width: 250px;}
+.safety05 img,
+.safety06 img {width: 150px;}
+
+
+.inspection-detail .color-box {margin: 0 0 15px;}
+.inspection-detail .color-box:last-of-type {margin-bottom: 30px;}
+
+.movieframe {
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%;
+}
+.movieframe iframe {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+
+@media print, screen and (min-width: 669px) { /*670px*/
+
+	ul.local-nav2.concept_materials li {
+		width: 25%;
+		border-bottom: 1px solid #b2b2b2;
+	}
+	
+	
+	ul.local-nav2.concept_materials,
+	ul.local-nav2.concept_technique {border-bottom: 0;}
+	ul.local-nav2.concept_technique li {
+		width: 33.33333333%;
+		border-bottom: 1px solid #b2b2b2;
+	}
+	ul.local-nav2.concept_materials li:nth-child(4n),
+	ul.local-nav2.concept_technique li:nth-child(3n) {border-right: 0 !important;}
+	
+	ul.local-nav2.concept_materials li:nth-child(2n),
+	ul.local-nav2.concept_technique li:nth-child(2n) {border-right: 1px solid #b2b2b2;}
+	ul.local-nav2.concept_materials li:nth-last-child(2),
+	ul.local-nav2.concept_technique li:nth-last-child(2) {border-bottom: 1px solid #b2b2b2;}
+	
+
+.imgset-box.migaku {margin-bottom: 70px;}
+
+.migaku .imgset-item,
+.leather .imgset-item {
+	border-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 60px;
+}
+.migaku .imgset-item:last-child {margin-bottom: 0;}
+
+.imgset-item:nth-child(odd) {flex-direction: row-reverse;}
+.ork .imgset-item:nth-child(odd),
+.leather .imgset-item:nth-child(odd),
+.nunobane .imgset-item:nth-child(odd),
+.migaku .imgset-item:nth-child(odd) {flex-direction: row;}
+
+.ork {border-top: 1px solid #b2b2b2;padding-top: 40px;margin-top: 40px;}
+.ork .imgset-item p.img {width: 200px;}
+.ork .imgset-item .text {width: calc(100% - 240px);}
+
+
+.mageki-gijutsu th {
+	width: 25%;
+}
+	
+.cloth-details>section {margin-bottom: 50px;}
+.litewave>section {margin-bottom: 40px;}
+.litewave .photogallery {margin-bottom: 30px;}
+
+.cloth-details th {width: 16.6666%;}
+
+.lamous .link-ul.mtL {margin-bottom: 30px;}
+	
+	
+.wiping-hikaku .photogallery>div {
+	width: calc( (100% - 60px) / 2 );
+}
+.wiping-hikaku .photogallery>div:first-child {margin-bottom: 30px;}
+.wiping-hikaku .photogallery>div:first-child:after {
+	content: '';
+border-width: 15px 0 15px 15px;
+border-color: transparent transparent transparent #00887f;
+	bottom: auto;
+	top: 62px;
+	left: auto;
+	margin-left: 0;
+	right: -38px;
+}
+	
+	
+.craftsman-item {
+	margin-bottom: 50px;
+	height: 287px;
+	position: relative;
+}
+.craftsman-item a {
+	position: relative;
+	width: 100%;
+	height: 100%;
+		-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.craftsman-item.item01 a {background: url(../images/concept/madeinjapan/craftsman/craftsman01.jpg);}
+.craftsman-item.item02 a {background: url(../images/concept/madeinjapan/craftsman/craftsman02.jpg);}
+.craftsman-item.item03 a {background: url(../images/concept/madeinjapan/craftsman/craftsman03.jpg);}
+.craftsman-item.item04 a {background: url(../images/concept/madeinjapan/craftsman/craftsman04.jpg);}
+.craftsman-item.item05 a {background: url(../images/concept/madeinjapan/craftsman/craftsman05.jpg);}
+.craftsman-item a:hover {
+	text-decoration: none;
+	opacity: .6;
+}
+.craftsman-info {
+	padding: 40px 20px 40px 30px;
+	width: 345px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.craftsman-item.item04 .craftsman-info,
+.craftsman-item.item05 .craftsman-info {
+	left: auto;
+	right: 0;
+}
+.craftsman-item.item02 .craftsman-info,
+.craftsman-item.item04 .craftsman-info {
+	background-color: rgba(255,255,255,0.80);
+	color: #1a1a1a;
+}
+.craftsman-info p.catch {
+	font-size: 138.5%;
+}
+.craftsman-info p.name {
+	font-size: 138.5%;
+}
+.craftsman-info p.name span {
+	font-size: 65%;
+}
+.craftsman-item.item02 .craftsman-info p.name span,
+.craftsman-item.item04 .craftsman-info p.name span {color: #808080;}
+	
+
+.craftsman-main {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #000;
+}
+.craftsman-main .craftsman-info {
+	position: static;
+	width: 400px;
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+	top: auto;
+	padding: 60px 25px 60px 35px;
+	font-size: 116%;
+}
+.craftsman-main .craftsman-info p.catch {
+	margin-bottom: 50px;
+}
+.craftsman-main .img {width: 500px;}
+	
+.safety01 .text {width: calc(100% - 290px);}
+.safety01 .img {width: 250px !important;}
+.safety05 .text,
+.safety06 .text {width: calc(100% - 190px);}
+.safety05 .img,
+.safety06 .img {width: 150px !important;}
+
+	
+.inspection-detail .color-box:last-of-type {margin-bottom: 40px;}
+	
+}

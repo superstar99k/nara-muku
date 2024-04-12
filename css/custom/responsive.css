@@ -1,0 +1,410 @@
+@media screen and (max-width: 669px) {
+    .new-container {
+        padding-top: 50px;
+    }
+    ul.breadcrumb {
+        text-align: left;
+        padding-left: 1rem;
+    }
+    ul.breadcrumb li {
+        font-size: 13px;
+    }
+    ul.breadcrumb li+li:before {
+        padding: 3px;
+        color: black;
+        content: ">";
+    }
+    ul.breadcrumb li a {
+        padding: 15px 2px 15px 2px;
+    }
+    .header .logobar {
+        display: flex;
+        float: left;
+        text-align: left;
+        padding: 0;
+    }
+    .header .textbar p {
+        margin: 10px 0 0 37px;
+        font-size: 10px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
+        letter-spacing: 3px;
+    }
+    .header-title {
+        text-align: center;
+        padding: 25px 0 10px;
+        border-top: 1px solid #b2b2b2;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header .logobar {
+        display: flex;
+        text-align: left;
+        padding: 0;
+    }
+    .header a {
+        float: left;
+    }
+}
+
+
+/* ============================================================================== */
+
+@media screen and ( max-width: 375px) {
+    .header-title {
+        font-size: 20px;
+    }
+    .breadcrumb {
+        margin: auto;
+    }
+    #banner {
+        margin: 33px 0 33px 0;
+    }
+    #banner-content {
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 15px;
+    }
+    .banner-title {
+        font-size: 18px;
+        margin: 23px 0 23px 0;
+        padding-top: 23px;
+    }
+    #banner-content p {
+        font-size: 14px;
+    }
+    /* second **/
+    .first .title,
+    .second .title {
+        font-size: 16px;
+    }
+    .first .text,
+    .second .text,
+    .route-text {
+        font-size: 13px;
+    }
+    .first input {
+        font-size: 17px !important;
+    }
+    .first .measure p {
+        font-size: 15px;
+    }
+    .second .text span {
+        font-size: 17.33px;
+        text-decoration: underline;
+    }
+    .second .second-detail {
+        margin-top: 95px;
+    }
+    .second .sub-title,
+    .route .sub-title {
+        font-size: 14px;
+    }
+    .second .add-text {
+        font-size: 13px;
+    }
+    .first .img-lg,
+    .second .img-lg,
+    .route .img-lg {
+        display: none;
+    }
+    .img-sm {
+        display: block;
+        margin-top: 52px;
+    }
+    /* route */
+    .route h4 span {
+        font-size: 14px;
+    }
+    .route .add-text {
+        font-size: 13px;
+        padding-left: 12px;
+    }
+    .route .add-mark {
+        font-size: 22px;
+    }
+    .route .p-pb-lg {
+        padding-bottom: 30px;
+    }
+    /*-------------------------------*/
+    .first .flex-container,
+    .second .flex-container,
+    .route .flex-container {
+        margin-bottom: 40px;
+    }
+    .hr-mg-sm {
+        margin-bottom: 5px;
+    }
+    .hr-mg-lg {
+        margin-bottom: 5px;
+    }
+    /* #header, */
+    #banner,
+    .first,
+    .second,
+    .route,
+    .attention-container {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .second .p-pb-sm {
+        margin-bottom: 20px;
+    }
+    .route {
+        padding-top: 30px;
+    }
+}
+
+@media screen and ( min-width: 376px) {
+    /* #banner */
+    .header-title {
+        font-size: 1.5rem;
+    }
+    .breadcrumb {
+        margin: auto;
+    }
+    #banner-content {
+        padding: 0 1em 1em 1em;
+    }
+    .banner-title {
+        font-size: 1.5em;
+        margin: 1.6em 0 1.6em 0;
+        padding-top: 1.6em;
+    }
+    #banner-content p {
+        font-size: 16px;
+    }
+    /* second */
+    .second .img-lg,
+    .route .img-lg {
+        display: block;
+        width: 100%;
+        max-width: 568px;
+    }
+    .first .title,
+    .second .title {
+        font-size: 1.1rem;
+    }
+    .first .measure input {
+        /*        font-size: 1.7rem; */
+        width: 130px;
+    }
+    img.max-size-430 {
+        max-width: 430px !important;
+    }
+    .img-sm {
+        display: none;
+    }
+    #banner,
+    #header,
+    .first,
+    .second,
+    .route,
+    .attention-container {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .second .hr-mg-sm,
+    .route .hr-mg-sm {
+        margin-bottom: 2.5em;
+    }
+    .hr-mg-lg {
+        margin-bottom: 3em;
+    }
+    .second .p-pb-lg,
+    .route .p-pb-lg {
+        padding-bottom: 3.2em;
+    }
+    .second .img-mt-lg,
+    .route .img-mt-lg {
+        margin-top: 2.4em;
+    }
+    .route .div-pr-lg {
+        padding-right: 0;
+    }
+    .first .img-lg,
+    .second .img-lg,
+    .route .img-lg {
+        padding: 2em 0 2em 0;
+    }
+}
+
+@media screen and ( min-width: 500px) {
+    .first,
+    .second,
+    .route,
+    .attention-container {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .route .div-pr-lg {
+        padding-right: 3.4em;
+    }
+    .first img,
+    .second img,
+    .route img {
+        margin: auto;
+    }
+}
+
+@media screen and ( min-width: 990px) {
+    #banner-content {
+        padding: 0 3.3em 3.3em 3.3em;
+    }
+    #banner {
+        margin: 2.3em;
+    }
+    #banner,
+    #header,
+    .first,
+    .second,
+    .route,
+    .attention-container {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .first .flex-container,
+    .second .flex-container,
+    .route .flex-container {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2em;
+    }
+    .first .flex-container .measure {
+        width: 40%;
+    }
+    .first img {
+        padding: 0 !important;
+    }
+    .second .flex-container>div,
+    .route .flex-container>div {
+        width: 50%;
+    }
+    .second .hr-mg-sm,
+    .route .hr-mg-sm {
+        margin-bottom: 24px;
+    }
+    .hr-mg-lg {
+        margin-bottom: 44px;
+    }
+    .second .p-pb-lg,
+    .route .p-pb-lg {
+        padding-bottom: 48px;
+    }
+    .second .div-pl-lg {
+        padding-left: 40px;
+    }
+    .second .img-mt-lg,
+    .route .img-mt-lg {
+        margin-top: 25px;
+    }
+    .route .div-pr-lg {
+        padding-right: 40px;
+    }
+}
+
+@media screen and ( min-width: 1280px) {
+    /*   #header     */
+    .header-title {
+        font-size: 30px;
+    }
+    /* #banner */
+    #banner {
+        margin: 85px;
+    }
+    #banner-content {
+        background-color: #EBEFEF;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 55px;
+    }
+    .banner-title {
+        font-size: 24px;
+        margin: 40px 0 40px 0;
+        padding-top: 40px;
+    }
+    #banner-content p {
+        font-size: 18px;
+    }
+    /* second **/
+    .first .title,
+    .second .title {
+        font-size: 24px;
+    }
+    .first .text,
+    .second .text,
+    .route .text {
+        font-size: 15px;
+    }
+    .first .measure p {
+        font-size: 20px;
+    }
+    .second .text span {
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    .second .second-detail {
+        margin-top: 55px;
+    }
+    .second .sub-title,
+    .route .sub-title {
+        font-size: 18px;
+    }
+    .second .add-text,
+    .route .add-text {
+        font-size: 13px;
+        margin: 5px 0 5px 0;
+        padding-left: 12px;
+    }
+    .second .right img {
+        padding-left: 87px;
+    }
+    /* route */
+    .route h4 span {
+        font-size: 18px;
+    }
+    .route .add-mark {
+        font-size: 22px;
+    }
+    /*-------------------------------*/
+    .first .flex-container,
+    .second .flex-container,
+    .route .flex-container {
+        margin-bottom: 42px;
+    }
+    .second .hr-mg-sm,
+    .route .hr-mg-sm {
+        margin-bottom: 24px;
+    }
+    .hr-mg-lg {
+        margin-bottom: 44px;
+    }
+    .second .p-pb-lg,
+    .route .p-pb-lg {
+        padding-bottom: 48px;
+    }
+    .second .img-mt-lg,
+    .route .img-mt-lg {
+        margin-top: 35px;
+    }
+    .route .div-pr-lg {
+        padding-right: 9em;
+    }
+    .route {
+        padding-top: 14px;
+    }
+    #header {
+        padding: 0;
+    }
+    #header,
+    #banner,
+    .first,
+    .second,
+    .route,
+    .attention-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

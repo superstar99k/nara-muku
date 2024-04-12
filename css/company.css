@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+.plain-dl.office dt {
+	border-bottom: 1px dotted #b2b2b2;
+	padding-bottom: 5px;
+	padding-top: 80px;
+	margin-top: -70px;
+}
+
+.plain-dl.history {margin-bottom: 0;}
+.historyDl-box.imgset-item {border-bottom: 0;padding-bottom: 0;margin-bottom: 0;}
+.plain-dl.history.text-only {border-top: 0;margin-top: 0;margin-bottom: 20px;}
+.historyDl-box .plain-dl dd {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+
+
+
+@media print, screen and (min-width: 669px) { /*670px*/
+	
+.plain-dl.history dt {width: 25%;}
+.plain-dl.history dd {width: 75%;}
+.plain-dl.history.text-only dt {width: 35.15625%;padding: 7px 5px;}
+.plain-dl.history.text-only dd {width: calc(100% - 35.15625%);padding: 7px 5px;}
+.plain-dl.history.text-only dt:first-of-type,
+.plain-dl.history.text-only dd:first-of-type {padding-top: 12px;}
+.plain-dl.history.text-only dt:last-of-type,
+.plain-dl.history.text-only dd:last-of-type {padding-bottom: 12px;}
+/*.historyDl-box {border-bottom: 1px solid #b2b2b2 !important;}*/
+	
+.plain-dl.history.text-only {margin-bottom: 0;}
+.plain-dl.history.text-only dt {border-bottom: 0;}
+	
+.plain-dl.history .text,
+.plain-dl.history.text-only {width: calc(100% - 260px);}
+.plain-dl.history .img,
+.historyDl-box p.img {width: 220px;}
+.historyDl-box p.img {padding-top: 12px;}
+
+	
+.plain-dl.office {margin-bottom: 40px;}
+.plain-dl.office dt {
+	border-bottom: 1px solid #b2b2b2;
+	position: relative;
+	padding-bottom: 12px;
+	padding-right: 25px;
+	width: 28%;
+	padding-top: 12px;
+	margin-top: 0px;
+}
+.plain-dl.office dt:after {
+	content: '';
+	width: 1px;
+	height: calc(100% - 10px);
+	border-right: 1px dotted #b2b2b2;
+	position: absolute;
+	right: 15px;
+	top: 5px;
+}
+.plain-dl.office dd {width: 72%;}
+	
+}
+
+
+.rinen p.copy {
+	margin: 0 0 10px;
+	font-size: 131%;
+}
+.rinen p.name {text-align: right;margin-top: 20px;font-weight: 500;font-size: 116%;}
+.rinen p.name strong {font-weight: bold;font-size: 116%;}
+
+
+@media print, screen and (min-width: 669px) { /*670px*/
+.rinen p.copy {
+	margin: 0 0 30px;
+	font-size: 161.6%;
+}
+.rinen p.name {margin-top: 30px;}
+	
+}
+
